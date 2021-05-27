@@ -1,0 +1,24 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.menuTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.menuList {
+  list-style: none;
+  margin-top: 2rem;
+  > li {
+    margin-block: 1rem;
+    cursor: pointer;
+  }
+}
+
+.fas {
+  margin-right: 0.5rem;
+}

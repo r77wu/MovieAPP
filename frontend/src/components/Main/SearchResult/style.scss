@@ -1,0 +1,28 @@
+.searchResultContainer {
+  width: 100%;
+  margin-top: 5rem;
+  > .searchResultnav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  > .searchResultMoviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 2rem;
+    gap: 2rem;
+  }
+}
+
+.searchResultCancel {
+  background-color: #ffffff;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.main {
+  grid-area: main;
+  width: 100%;
+  border-left: 1px solid #868b8e;
+  border-right: 1px solid #868b8e;
+  .mainContainer {
+    width: 95%;
+    margin-inline: auto;
+  }
+  @media all and (max-width: 1439px) {
+    border: none;
+  }
+}

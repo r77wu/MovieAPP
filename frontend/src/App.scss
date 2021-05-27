@@ -1,0 +1,8 @@
+.layout {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-areas: "left main main main main main right right";
+  @media all and (max-width: 1439px) {
+    display: block;
+  }
+}

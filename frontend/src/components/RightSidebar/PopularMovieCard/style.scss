@@ -1,0 +1,21 @@
+.popularMovieCard {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-block: 1rem;
+  > .popularMoviePoster {
+    width: 100px;
+    height: 150px;
+    img {
+      max-width: 100%;
+    }
+  }
+  > .popularMovieInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-weight: 300;
+  }
+}

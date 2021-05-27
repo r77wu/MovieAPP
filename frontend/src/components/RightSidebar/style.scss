@@ -1,0 +1,8 @@
+.RightSidebar {
+  grid-area: right;
+  width: 75%;
+  margin-inline: auto;
+  @media all and (max-width: 1439px) {
+    display: none;
+  }
+}

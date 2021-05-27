@@ -1,0 +1,35 @@
+.popularArtistCard {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-block: 1rem;
+  > .popularArtistPoster {
+    width: 100px;
+    height: 150px;
+
+    > img {
+      max-width: 100%;
+    }
+  }
+  > .popularArtistInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-weight: 300;
+  }
+}
+
+.artistMovies {
+  list-style: none;
+  > .artistMovie {
+    font-size: 14px;
+    margin-block: 0.5em;
+    cursor: pointer;
+    display: block;
+  }
+  > .artistMovie:hover {
+    outline: 1px dashed #2a9d8f;
+  }
+}
